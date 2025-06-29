@@ -7,7 +7,14 @@ categories: [blog, GitHub]
 
 ## The Illusion of Intelligence: When AI Sounds Smart But Isn’t
 
-I watched a YouTube video of ThePrimeagen’s experience with vibe coding. [In the video](https://www.youtube.com/watch?v=Aqj1Z1vgE6I), he shared his experience building a Twitch-integrated server that uses some APIs from Twitch. When he reached the point of implementing login functionality, Claude generated code that didn’t fully consider security aspects, making it potentially vulnerable to client-side attacks. So he asked Claude 3.5 something like, “Hey I need a login. We’re going to use Twitch, and I need to be able to store obviously my session data, so I can make sure when someone makes the HTTP request, I know who I’m talking to.” When he did that, the AI replied, “Oh that’s a really good concern!” — which was both hilarious and ironic, because if he didn’t understand sessions, his server could have been easily spoofed.
+I watched a YouTube video of ThePrimeagen’s experience with vibe coding. [In the video](https://www.youtube.com/watch?v=Aqj1Z1vgE6I), he shared his experience building a Twitch-integrated server that uses some APIs from Twitch. 
+
+When he reached the point of implementing login functionality, Claude generated code that didn’t fully consider security aspects, making it potentially vulnerable to client-side attacks. 
+
+So he asked Claude 3.5 something like:
+"Hey I need a login. We’re going to use Twitch, and I need to be able to store obviously my session data, so I can make sure when someone makes the HTTP request, I know who I’m talking to.” 
+
+When he did that, the AI replied, “Oh that’s a really good concern!” — which was both hilarious and ironic, because if he didn’t understand sessions, his server could have been easily spoofed.
 
 ## It is just Prediction!
 
@@ -26,7 +33,7 @@ you are an good person, user: hi? how is it going? assistant: `M`
 ```
 If most predictable token is "M", It emits "M". So it is useless to ask why next token is "M". AI just generates "M" token based on their studies.
 
-## AI-generated codes
+## The reality of AI-generated code
 
 AI-generated code is not fundamentally different from the previous example. Since generative AI is essentially an autocompletion tool that predicts the next token based on probabilities, it simply chooses “M” if “M” is the most prevalent token in the data it has seen.
 
@@ -38,7 +45,7 @@ As a result, the volume of code in public repositories will likely increase expo
 
 As I mentioned, the quantity does not guarantee the quality. This means if code snowballed badly, mess and instability of software increases, which is not easy to fix as time goes. This misguidance must be stopped as soon as possible.
 
-## 
+## Humans In Danger Zone.
 
 Unfortunately, I believe the beginning of this problem has already started. Many so-called software engineers rely on AI-generated code without considering the software’s context or long-term maintainability. They seem to treat the output and explanation from AI as if it’s always correct, blindly copying and pasting without proper validation or contextual thinking.
 
