@@ -7,7 +7,7 @@ categories: [blog, GitHub]
 
 ## The Illusion of Intelligence: When AI Sounds Smart But Isn’t
 
-I watched a YouTube video of ThePrimeagen’s experience with vibe coding. In the video, he shared his experience building a Twitch-integrated server that uses some APIs from Twitch. When he reached the point of implementing login functionality, Claude generated code that didn’t fully consider security aspects, making it potentially vulnerable to client-side attacks. So he asked Claude 3.5 something like, “Hey I need a login. We’re going to use Twitch, and I need to be able to store obviously my session data, so I can make sure when someone makes the HTTP request, I know who I’m talking to.” When he did that, the AI replied, “Oh that’s a really good concern!” — which was both hilarious and ironic, because if he didn’t understand sessions, his server could have been easily spoofed.
+I watched a YouTube video of ThePrimeagen’s experience with vibe coding. [In the video](https://www.youtube.com/watch?v=Aqj1Z1vgE6I), he shared his experience building a Twitch-integrated server that uses some APIs from Twitch. When he reached the point of implementing login functionality, Claude generated code that didn’t fully consider security aspects, making it potentially vulnerable to client-side attacks. So he asked Claude 3.5 something like, “Hey I need a login. We’re going to use Twitch, and I need to be able to store obviously my session data, so I can make sure when someone makes the HTTP request, I know who I’m talking to.” When he did that, the AI replied, “Oh that’s a really good concern!” — which was both hilarious and ironic, because if he didn’t understand sessions, his server could have been easily spoofed.
 
 ## It is just Prediction!
 
