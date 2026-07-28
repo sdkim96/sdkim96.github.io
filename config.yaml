@@ -1,0 +1,38 @@
+config:
+  navbar:
+    title:
+    externalLinks:
+      - label: GitHub
+        href: https://github.com/sdkim96
+
+  footer:
+    style: dark
+    copyright: Robert Kim
+
+  theme:
+    colorMode: light
+    respectPrefersColorScheme: true
+    prismLanguages:
+      - bash
+      - go
+      - typescript
+
+  # Section metadata is defined in each folder's index.md frontmatter.
+  # Supported fields:
+  #   title:       Display name (navbar, footer, sidebar)
+  #   description: Section description
+  #   icon:        Sidebar icon class (book, pen). Rendered via CSS.
+  #   slug:        URL path override
+  #
+  # Example docs/articles/index.md:
+  #   ---
+  #   title: Articles
+  #   description: Technical articles about systems, concurrency, Go, and software engineering.
+  #   icon: book
+  #   slug: /articles
+  #   sidebar_position: 1
+  #   sidebar_label: Overview
+  #   ---
+  #
+  # Available icons: book, pen
+  # To add a new icon, add a sidebar-icon-<name> CSS rule in src/css/custom.css.
