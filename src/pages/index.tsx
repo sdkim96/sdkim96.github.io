@@ -17,8 +17,7 @@ function HomepageHeader(): ReactNode {
         </Heading>
 
         <p className={styles.subtitle}>
-          Writing about concurrency, systems, Go, infrastructure, and the
-          engineering decisions behind my projects.
+          A hacker wannabe.
         </p>
 
         <div className={styles.actions}>
